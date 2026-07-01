@@ -5,7 +5,7 @@ Run with: python create_superuser.py
 import os
 import django
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'job_posting_site.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'user_management.settings')
 django.setup()
 
 from users.models import User

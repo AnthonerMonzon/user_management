@@ -1,4 +1,4 @@
-# Job Posting Site - Django + Vue + Supabase
+# User Management - Django + Vue + Supabase
 
 A full-stack application with Django backend, Vue.js admin panel, and Supabase integration for user management with role-based access control.
 
@@ -14,9 +14,9 @@ A full-stack application with Django backend, Vue.js admin panel, and Supabase i
 ## Project Structure
 
 ```
-job_posting_site/
+user_management/
 ├── manage.py                          # Django management script
-├── job_posting_site/                  # Django project configuration
+├── user_management/                   # Django project configuration
 │   ├── __init__.py
 │   ├── settings.py                    # Django settings
 │   ├── urls.py                        # Main URL configuration

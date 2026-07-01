@@ -1,5 +1,5 @@
 """
-Django settings for job_posting_site project.
+Django settings for user_management project.
 """
 
 from pathlib import Path
@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'job_posting_site.urls'
+ROOT_URLCONF = 'user_management.urls'
 
 TEMPLATES = [
     {
@@ -62,7 +62,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'job_posting_site.wsgi.application'
+WSGI_APPLICATION = 'user_management.wsgi.application'
 
 
 # Database

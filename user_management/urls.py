@@ -1,5 +1,5 @@
 """
-URL configuration for job_posting_site project.
+URL configuration for user_management project.
 """
 from django.contrib import admin
 from django.urls import path, include
